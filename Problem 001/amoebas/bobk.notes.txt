@@ -1,4 +1,0 @@
-Sheba's Amoebas notes:
-- changed directory name to amoebas
-- added CTD validator
-- added Python 2 solution
