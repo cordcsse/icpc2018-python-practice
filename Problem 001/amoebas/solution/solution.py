@@ -17,6 +17,22 @@ def isInLoop(point):
     elif point == "#":
         return True
 
+def formSegment(p, q):
+    
+
+def findLoops(dim, data):
+    dim[0], dim[1] = int(dim[0]), int(dim[1])
+
+    loopSeg = []
+
+    for i in range(dim[0]):
+        for j in range(dim[1]):
+            if isInLoop(data[i][j]):
+               loopSeg.append((j,i))
+    return(loopSeg)
+
+
+findLoops(arrDim, arrData)
 
 sec = []
 for i in range(int(arrDim[1])):
@@ -26,3 +42,5 @@ for i in range(int(arrDim[1])):
 print(arrData, arrDim)
 
 print(sec)
+
+print("\n", findLoops(arrDim, arrData))
