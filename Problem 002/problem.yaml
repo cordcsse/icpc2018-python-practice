@@ -1,0 +1,11 @@
+source: 2017 ACM ICPC North Central North America Regional Contest
+source_url: http://ncna-region.unl.edu/contest-schedule
+author: Bryce Sandlund
+rights_owner: ICPC
+
+license: cc0
+# https://pixabay.com/en/atlantis-sea-ruins-water-2413464/
+
+limits:
+    time_multiplier: 2
+    time_safety_margin: 2
