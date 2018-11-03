@@ -1,0 +1,41 @@
+# get n and m
+INT(1,10000,n) SPACE INT(1,10000,m) NEWLINE
+
+SET(names[0] = "")
+SET(numnames = 0)
+
+REP(n)
+
+  REGEX("[A-Za-z]+",c1) SPACE REGEX("(is-a)|(has-a)") SPACE REGEX("[A-Za-z]+",c2) NEWLINE
+
+  IF(!INARRAY(c1,names))
+    SET(names[numnames]=c1)
+	SET(numnames=numnames+1)
+  END
+
+  IF(!INARRAY(c2,names))
+    SET(names[numnames]=c2)
+	SET(numnames=numnames+1)
+  END
+
+END
+
+REP(m)
+
+  REGEX("[A-Za-z]+",c1) SPACE REGEX("(is-a)|(has-a)") SPACE REGEX("[A-Za-z]+",c2) NEWLINE
+
+  IF(!INARRAY(c1,names))
+    SET(names[numnames]=c1)
+	SET(numnames=numnames+1)
+  END
+
+  IF(!INARRAY(c2,names))
+    SET(names[numnames]=c2)
+	SET(numnames=numnames+1)
+  END
+
+END
+
+ASSERT(numnames<=500)
+
+EOF
