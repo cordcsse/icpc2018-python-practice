@@ -7,8 +7,7 @@ m = int(m)
 relatedStructs = []
 
 for i in range(n):
-    input()
-    print(, " : R")
+    print(input(), " : R")
 
 
 for i in range(m):
