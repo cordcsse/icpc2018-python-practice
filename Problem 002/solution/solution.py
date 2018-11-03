@@ -10,8 +10,8 @@ count = 0
 seaLevel = 0
 
 
-# for i in range(storeNum):
-  #  min(stores[])
+for i in range(storeNum):
+    min(stores[i])
 
 
 
