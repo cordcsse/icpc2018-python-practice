@@ -1,0 +1,43 @@
+input = """5
+5 10
+6 15
+2 7
+3 3
+4 11"""
+
+input = input.split("\n")
+
+num_gold_stores = int(input[0])
+gold_stores = input[1:]
+
+def goldStore(input):
+	return input.split(" ")
+
+def check(gold_stores, num_gold_stores, current_level, num_visited):
+	for a in range(0, num_gold_stores):
+		start = goldStore(gold_stores[0])
+
+		time_to = int(start[0])
+		position = int(start[1])
+
+		# print(position, current_level)
+
+		if position <= current_level:
+			continue
+
+		current_level += time_to
+		num_visited += 1
+
+		rest = gold_stores[:]
+		del rest[a]
+
+		# print(start, rest)
+
+		new_v = check(rest, len(rest), current_level, num_visited)
+		if new_v > num_visited:
+			num_visited = new_v
+			continue
+
+	return num_visited
+
+print(check(gold_stores, num_gold_stores, 0, 0))
