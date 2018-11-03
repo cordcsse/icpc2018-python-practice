@@ -1,8 +1,12 @@
+line = input()
+(m,n) = line.split(' ')
+m = int(m)
+n = int(n)
 
-f = open("..\\data\\sample\\1.in")
-arrDim = f.readline().strip().split(sep=" ")
-arrData = f.read().splitlines()
-f.close()
+arrData = []
+for i in range(m):
+    line = input()
+    arrData.append(list(line))
 
 
 def getSegment(index, data):
@@ -17,8 +21,14 @@ def isInLoop(point):
     elif point == "#":
         return True
 
+def isAttached(p, q):
+    if (p[0] == q[0] or p[0]+1 == q[0] or p[0]-1 == q[0]) and (p[1] == q[1] or p[1]+1 == q[1] or p[1]-1 == q[1]):
+        return True
+
 def formSegment(p, q):
-    
+    if type(p) == type([]):
+        for i in p:
+            return True
 
 def findLoops(dim, data):
     dim[0], dim[1] = int(dim[0]), int(dim[1])
@@ -44,3 +54,5 @@ print(arrData, arrDim)
 print(sec)
 
 print("\n", findLoops(arrDim, arrData))
+
+print(isAttached((1,1), (3,1)))
