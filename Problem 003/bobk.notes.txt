@@ -1,0 +1,6 @@
+IsAHasA notes:
+- changed directory name to isahasa
+- added CTD validator
+- split LaTeX input to fit 80-column lines
+- fixed newline error in sample input 1.in
+- fixed all validators to return 42
