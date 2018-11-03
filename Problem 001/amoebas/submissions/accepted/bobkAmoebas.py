@@ -30,4 +30,4 @@ for i in range(m):
             nAmoebas += 1
             removeBorder(i,j)
 
-print nAmoebas
+print(nAmoebas)

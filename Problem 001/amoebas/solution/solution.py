@@ -1,8 +1,12 @@
+line = input()
+(m,n) = line.split(' ')
+m = int(m)
+n = int(n)
 
-f = open("..\\data\\sample\\1.in")
-arrDim = f.readline().strip().split(sep=" ")
-arrData = f.read().splitlines()
-f.close()
+arrData = []
+for i in range(m):
+    line = input()
+    arrData.append(list(line))
 
 
 def getSegment(index, data):
