@@ -1,0 +1,210 @@
+$ source compare.sh 
+Comparing ../../data/sample/1.in
+  Bob matrix closure:
+
+real	0m0.122s
+user	0m0.102s
+sys	0m0.029s
+  John's solution:
+
+real	0m0.004s
+user	0m0.001s
+sys	0m0.002s
+  Bob's graph closure:
+
+real	0m0.117s
+user	0m0.098s
+sys	0m0.028s
+Comparing ../../data/secret/001zoo.in
+  Bob matrix closure:
+
+real	0m0.139s
+user	0m0.121s
+sys	0m0.030s
+  John's solution:
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.002s
+  Bob's graph closure:
+
+real	0m0.120s
+user	0m0.106s
+sys	0m0.029s
+Comparing ../../data/secret/002.in
+  Bob matrix closure:
+
+real	0m0.150s
+user	0m0.156s
+sys	0m0.034s
+  John's solution:
+
+real	0m0.004s
+user	0m0.002s
+sys	0m0.002s
+  Bob's graph closure:
+
+real	0m0.143s
+user	0m0.126s
+sys	0m0.034s
+Comparing ../../data/secret/003.in
+  Bob matrix closure:
+
+real	0m0.148s
+user	0m0.141s
+sys	0m0.035s
+  John's solution:
+
+real	0m0.004s
+user	0m0.002s
+sys	0m0.002s
+  Bob's graph closure:
+
+real	0m0.140s
+user	0m0.117s
+sys	0m0.033s
+Comparing ../../data/secret/004-100-100-20-newer.in
+  Bob matrix closure:
+
+real	0m0.177s
+user	0m0.258s
+sys	0m0.043s
+  John's solution:
+
+real	0m0.005s
+user	0m0.002s
+sys	0m0.002s
+  Bob's graph closure:
+
+real	0m0.145s
+user	0m0.144s
+sys	0m0.035s
+Comparing ../../data/secret/005-100-100-50.in
+  Bob matrix closure:
+
+real	0m0.191s
+user	0m0.319s
+sys	0m0.042s
+  John's solution:
+
+real	0m0.004s
+user	0m0.002s
+sys	0m0.002s
+  Bob's graph closure:
+
+real	0m0.165s
+user	0m0.194s
+sys	0m0.036s
+Comparing ../../data/secret/006-1000-1000-100-newer.in
+  Bob matrix closure:
+
+real	0m0.348s
+user	0m1.003s
+sys	0m0.076s
+  John's solution:
+
+real	0m0.023s
+user	0m0.019s
+sys	0m0.003s
+  Bob's graph closure:
+
+real	0m0.330s
+user	0m0.628s
+sys	0m0.053s
+Comparing ../../data/secret/007-10000-10000-300-newer.in
+  Bob matrix closure:
+
+real	0m1.020s
+user	0m3.352s
+sys	0m0.183s
+  John's solution:
+
+real	0m0.495s
+user	0m0.474s
+sys	0m0.018s
+  Bob's graph closure:
+
+real	0m4.517s
+user	0m5.060s
+sys	0m0.112s
+Comparing ../../data/secret/008-10000-10000-400-newer.in
+  Bob matrix closure:
+
+real	0m1.283s
+user	0m3.461s
+sys	0m0.188s
+  John's solution:
+
+real	0m0.565s
+user	0m0.542s
+sys	0m0.021s
+  Bob's graph closure:
+
+real	0m12.143s
+user	0m12.708s
+sys	0m0.128s
+Comparing ../../data/secret/009-10000-10000-500-newer.in
+  Bob matrix closure:
+
+real	0m1.708s
+user	0m3.933s
+sys	0m0.188s
+  John's solution:
+
+real	0m0.652s
+user	0m0.625s
+sys	0m0.022s
+  Bob's graph closure:
+
+real	0m25.448s
+user	0m26.045s
+sys	0m0.139s
+Comparing ../../data/secret/010bigtree.in
+  Bob matrix closure:
+
+real	0m1.209s
+user	0m1.980s
+sys	0m0.120s
+  John's solution:
+
+real	0m0.246s
+user	0m0.226s
+sys	0m0.017s
+  Bob's graph closure:
+
+real	0m3.683s
+user	0m4.233s
+sys	0m0.120s
+Comparing ../../data/secret/011cycles.in
+  Bob matrix closure:
+
+real	0m1.285s
+user	0m2.153s
+sys	0m0.130s
+  John's solution:
+
+real	0m0.322s
+user	0m0.301s
+sys	0m0.018s
+  Bob's graph closure:
+
+real	0m21.449s
+user	0m22.028s
+sys	0m0.135s
+Comparing ../../data/secret/012cylinder.in
+  Bob matrix closure:
+
+real	0m1.231s
+user	0m1.984s
+sys	0m0.123s
+  John's solution:
+
+real	0m0.278s
+user	0m0.259s
+sys	0m0.017s
+  Bob's graph closure:
+
+real	0m14.325s
+user	0m14.898s
+sys	0m0.130s
+
